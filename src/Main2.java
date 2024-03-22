@@ -17,7 +17,7 @@ class Circle2 extends Figure {
 
     public Circle2(double radius) {
         if (radius <= 0) {
-            System.out.println("Некорректное значение радиуса. Радиус должен быть положительным.");
+            System.out.println("Ошибка. Радиус должен быть положительным.");
         } else {
             this.radius = radius;
         }
@@ -35,7 +35,7 @@ class Rectangle extends Figure {
 
     public Rectangle(double length, double width) {
         if (length <= 0 || width <= 0) {
-            System.out.println("Некорректные значения длины или ширины. Длина и ширина должны быть положительными.");
+            System.out.println("Ошибка. Длина и ширина должны быть положительными.");
         } else {
             this.length = length;
             this.width = width;
@@ -58,9 +58,9 @@ public class Main2 {
 
         for (int i = 0; i < size; i++) {
             if (i % 2 == 0) {
-                figures[i] = new Circle2(5.0); // Пример создания круга с радиусом 5.0
+                figures[i] = new Circle2(5.0); // создания круга с радиусом 5.0
             } else {
-                figures[i] = new Rectangle(4.0, 3.0); // Пример создания прямоугольника с длиной 4.0 и шириной 3.0
+                figures[i] = new Rectangle(4.0, 3.0); // создания прямоугольника с длиной 4.0 и шириной 3.0
             }
         }
 
