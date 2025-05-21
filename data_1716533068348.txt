@@ -1,1 +1,0 @@
-the first thread writes the time:Fri May 24 09:44:05 MSK 2024the first thread writes the time:Fri May 24 09:44:12 MSK 2024the first thread writes the time:Fri May 24 09:44:20 MSK 2024the first thread writes the time:Fri May 24 09:44:28 MSK 2024
